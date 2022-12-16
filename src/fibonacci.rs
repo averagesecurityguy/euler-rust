@@ -32,7 +32,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn fibonacci_sequence() {
+    fn test_fibonacci_sequence() {
         let mut f = fibonacci();
 
         assert_eq!(f.next().unwrap(), 0);
