@@ -1,6 +1,7 @@
 pub mod fibonacci;
 pub mod triangle;
 pub mod collatz;
+pub mod pascal;
 
 use primes::{Sieve, PrimeSet};
 
