@@ -2,6 +2,7 @@ pub mod fibonacci;
 pub mod triangle;
 pub mod collatz;
 pub mod pascal;
+pub mod bigints;
 
 use primes::{Sieve, PrimeSet};
 
