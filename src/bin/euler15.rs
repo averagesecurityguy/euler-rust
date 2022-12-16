@@ -19,5 +19,5 @@ How many such routes are there through a 20×20 grid?
 fn main() {
     let val = euler::pascal::pascal_kth(40, 20);
 
-    println!("Number of paths {}", val);
+    println!("Number of paths {}", val.unwrap());
 }
