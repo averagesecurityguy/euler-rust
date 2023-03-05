@@ -7,5 +7,5 @@ What is the 10 001st prime number?
 */
 
 fn main() {
-    println!("The 10 001st prime is {}", euler::nth_prime_number(10001));
+    println!("The 10 001st prime is {}", euler::primes::nth_prime_number(10001));
 }

@@ -10,7 +10,7 @@ fn main() {
     let n: u64 = 20;
     let mut product: u64 = 1;
 
-    for x in euler::primes_below_n(n) {
+    for x in euler::primes::primes_below_n(n) {
         let mut val: u64 = x;
 
         while val <= n {
