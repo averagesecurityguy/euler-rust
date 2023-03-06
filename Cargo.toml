@@ -8,4 +8,5 @@ edition = "2018"
 
 [dependencies]
 num-bigint = "0.4.3"
+num-traits = "0.2.15"
 primes = "0.3.0"
